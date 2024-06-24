@@ -35,7 +35,7 @@
 }
 .icons{
     position: absolute;
-    color: blue;
+    color: rgb(56, 56, 239);
 }
 .fb, .yt, .in{
     padding-top: 0px;
@@ -78,6 +78,22 @@
 }
 .maps{
     margin-top: 15px;
+}
+.custom {
+    position: relative;
+    /* display: inline-block; */
+    color: rgb(102, 102, 255);
+}
+.custom::after {
+    content: '';
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 4px;  
+    height: 4px;
+    background-color: white; 
+    border-radius: 50%;
+    /* transform: translate(-50%, -50%); */
 }
 .whatsapp{
     margin-top: 15px;
