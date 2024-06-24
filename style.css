@@ -1,0 +1,140 @@
+.container-fluid{
+    position: relative;
+    display: grid;
+}
+.first{
+    background-color: rgb(102, 102, 255);
+    color: white;
+    border-radius: 20px;
+    width: 1100px;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: -300px;
+    position: relative;
+    justify-self: center;
+}
+.headings{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 60px;
+}
+.theme{
+    padding: 10px;
+    width: 140px;
+    background-color: rgb(102, 102, 255);
+    border: 1px solid white;
+    color: white;
+}
+.undraw{
+    position: absolute;
+    left: 330px;
+    bottom: 80px;
+}
+.codepro{
+    width: 130px;
+}
+.icons{
+    position: absolute;
+    color: blue;
+}
+.fb, .yt, .in{
+    padding-top: 0px;
+    padding: 8px;
+    padding-left: 35px;
+}
+.second{
+    background-color: rgb(236, 233, 233);
+    padding-left: 30px;
+    height: 450px;
+    margin-top:230px;
+    border-radius: 15px;
+}
+
+.one{
+    margin-top: 150px;
+    background-color: white;
+    height: 270px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.two{
+    margin-top: 150px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 821px;
+    height: 270px;
+    margin-left: 34px;
+    padding-top: 30px;
+
+}
+.linking{
+    padding-left: 30px;
+}
+.other{
+    margin-top: 15px;
+}
+.maps{
+    margin-top: 15px;
+}
+.whatsapp{
+    margin-top: 15px;
+    color: green;
+}
+.corner{
+    margin-top: 15px;
+    color: rgb(102, 102, 255);
+}
+
+
+/* Media queries for different screen sizes */
+
+/* Small screens (phones) */
+@media (max-width: 575.98px) {
+    .first {
+        flex-direction: column;
+        margin-bottom: -200px;
+    }
+    .second {
+        flex-direction: column;
+    }
+    .one{
+        width: 250px;
+        left: 0px;
+    }
+    .two {
+        width: 70%;
+    }
+    .icons{
+        left: 40px;
+    }
+    .linking .col {
+        width: 100%;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .first {
+        flex-wrap: wrap;
+        margin-bottom: -250px;
+    }
+    .second {
+        flex-direction: column;
+    }
+    .one {
+        width: 100px;
+    }
+    .two {
+        width: 50%;
+    }
+    .linking {
+        flex-direction: column;
+    }
+    .one1, .one2, .one3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
