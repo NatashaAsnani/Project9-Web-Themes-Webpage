@@ -81,19 +81,17 @@
 }
 .custom {
     position: relative;
-    /* display: inline-block; */
     color: rgb(102, 102, 255);
 }
 .custom::after {
     content: '';
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 35%;
     width: 4px;  
     height: 4px;
     background-color: white; 
     border-radius: 50%;
-    /* transform: translate(-50%, -50%); */
 }
 .whatsapp{
     margin-top: 15px;
@@ -111,7 +109,6 @@
 @media (max-width: 575.98px) {
     .first {
         flex-direction: column;
-        margin-bottom: -200px;
     }
     .second {
         flex-direction: column;
@@ -135,7 +132,6 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .first {
         flex-wrap: wrap;
-        margin-bottom: -250px;
     }
     .second {
         flex-direction: column;
@@ -146,11 +142,48 @@
     .two {
         width: 50%;
     }
-    .linking {
-        flex-direction: column;
-    }
     .one1, .one2, .one3 {
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 2000px) {
+    .first {
+        flex-wrap: wrap;
+    }
+    .second {
+        flex-direction: column;
+    }
+    .one {
+        width: 300px;
+    }
+    .two {
+        width: 850px;
+    }
+}
+
+@media (max-width: 4751px){
+    .one{
+        width: 300px;
+    }
+    .two{
+        width: 800px;
+    }
+    .second{
+        justify-self: center;
+        width: 1200px;
+    }
+}
+@media (min-width: 4751px){
+    .one{
+        width: 300px;
+    }
+    .two{
+        width: 800px;
+    }
+    .second{
+        justify-self: center;
+        width: 1200px;
     }
 }
